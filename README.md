@@ -3,7 +3,15 @@ Dispatch events from a [TurnTouch](), using a Raspberry Pi with [bluepy](http://
 
 Designing on a Pi Zero W. Should work on Pi3 too. Python3 is a minimum requirement too- no effort will be put towards py2. Breaking changes will be allowed until we decide it's releaseable.
 
+# dev tasks
+
 grep 'TODO' if you want to jump in. Currently working on monitor.py.
+
+* can't get notifications because we can't connect. (big)
+* sniff if we are root/have access to the BT stack and fail with a helpful message (little)
+* start a yaml configuration file + reader
+* start a dispatcher class (?) and factory or something else fairly easy to write and pluggable
+
 
 # dependencies to put in reqs.txt
 bluepy>=0.9.11

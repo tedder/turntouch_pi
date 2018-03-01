@@ -1,0 +1,23 @@
+
+Service <uuid=Device Information handleStart=22 handleEnd=24> 0000180a-0000-1000-8000-00805f9b34fb
+Service <uuid=00001530-1212-efde-1523-785feabcd123 handleStart=25 handleEnd=65535> 00001530-1212-efde-1523-785feabcd123
+Service <uuid=Generic Attribute handleStart=8 handleEnd=11> 00001801-0000-1000-8000-00805f9b34fb
+Service <uuid=99c31523-dc4f-41b1-bb04-4e4deb81fadd handleStart=12 handleEnd=17> 99c31523-dc4f-41b1-bb04-4e4deb81fadd
+#  button status service
+Service <uuid=Generic Access handleStart=1 handleEnd=7> 00001800-0000-1000-8000-00805f9b34fb
+Service <uuid=Battery Service handleStart=18 handleEnd=21> 0000180f-0000-1000-8000-00805f9b34fb
+
+
+Characteristic <Device Name> 00002a00-0000-1000-8000-00805f9b34fb
+Characteristic <Appearance> 00002a01-0000-1000-8000-00805f9b34fb
+Characteristic <Peripheral Preferred Connection Parameters> 00002a04-0000-1000-8000-00805f9b34fb
+Characteristic <Service Changed> 00002a05-0000-1000-8000-00805f9b34fb
+Characteristic <99c31525-dc4f-41b1-bb04-4e4deb81fadd> 99c31525-dc4f-41b1-bb04-4e4deb81fadd
+# button status char
+Characteristic <99c31526-dc4f-41b1-bb04-4e4deb81fadd> 99c31526-dc4f-41b1-bb04-4e4deb81fadd
+# dev nickname char
+Characteristic <Battery Level> 00002a19-0000-1000-8000-00805f9b34fb
+Characteristic <Manufacturer Name String> 00002a29-0000-1000-8000-00805f9b34fb
+Characteristic <00001532-1212-efde-1523-785feabcd123> 00001532-1212-efde-1523-785feabcd123
+Characteristic <00001531-1212-efde-1523-785feabcd123> 00001531-1212-efde-1523-785feabcd123
+Characteristic <00001534-1212-efde-1523-785feabcd123> 00001534-1212-efde-1523-785feabcd123
