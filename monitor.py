@@ -46,6 +46,8 @@ print(binascii.b2a_hex(bret).decode('utf-8'))
 # is returning ff00.
 
 # TODO: write 'NOTIFY' and then listen
+# properties are listed here: https://github.com/IanHarvey/bluepy/blob/6bed14443b0708fb83c59b447ab91623f29efe1d/bluepy/btle.py#L134
+# notify is 0b00010000, which is 0x10 or 16 in decimal
 
 
 
